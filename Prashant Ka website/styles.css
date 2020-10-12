@@ -1,0 +1,51 @@
+body{
+    font-family: 'Ubuntu Mono', monospace;
+    background-image: url(bg-photo.jpg);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.heading{
+    text-align: center;
+    color: white;
+}
+.hobbies h3{
+    text-align: center;
+    color: white;
+}
+.hobbies ul{
+    list-style: none;
+    text-align: center;
+    color: white;
+    padding-right: 25px;
+}
+.about{
+    text-align: center;
+    color: white;
+}
+.navbar{
+    background: transparent;
+}
+/* id selector */
+#dp{
+    vertical-align: middle;
+    height: 150px;
+    width: 150px;
+    border: 2.5px solid white;
+    border-radius: 100%;
+}
+#thumbs-up{
+    vertical-align: middle;
+    height: 150px;
+    width: 150px;
+}
+.img{
+    text-align: center;
+}
+footer{
+    padding-top: 100px;
+}
+@media only screen and (max-width: 1140px){
+    p{
+        padding: 0;
+    }
+}
